@@ -7,7 +7,7 @@ import { useState } from "react";
 import { v4 as uuidv4 } from 'uuid';
 function App() {
   const [todos, setTodos] = useState([
-    // { title: "Some task", id: uuidv4(), is_completed: false },
+    { title: "Some task", id: uuidv4(), is_completed: false },
     // { title: "Some other task", id: uuidv4(), is_completed: true },
     // { title: "last task", id: uuidv4(), is_completed: false }
   ]);                   
